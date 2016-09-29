@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Spyder Editor
+Solutions of Array problems in software engineering 
 
-This is a temporary script file.
+2016/09/28
 """
 
 #%%
