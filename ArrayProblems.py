@@ -42,7 +42,6 @@ testList = [-4, 2, 3, 0, -1, 10, 2, -3]
 findMaxSumSequence(testList)
 
 #%%
-<<<<<<< HEAD
 # find if the list has the target number, with recursion
 def checkIfExist(inputList, low, high, x):
     if low<=high:
@@ -72,34 +71,15 @@ print checkIfExist(testList, 0, len(testList),3)
 
 testList = [-9, -3, 1, 3, 4, 8]
 print checkIfExist(testList, 3)  
-=======
-# find if the list has the target number
-def checkIfExist(inputList, x):
-    N=len(inputList)
-    if N==1:
-        if x!= inputList[0]:
-            return false
-        else:
-            return true
-    if x < inputList[N/2]:
-        checkIfExist(inputList[:N/2-1], x)
-    elif x > inputList[N/2]:
-        checkIfExist(inputList[N/2+1:], x)
-    else:
-        return true
-    
-testList = [-9, -3, 1, 3, 4, 8]
-print checkIfExist(testList, -9)  
->>>>>>> 2226fe94c0b8afd8454e725dc6c91d3c165c5a3a
+
+
 
 
 #%%
 # find if the list has the target number, plain implementation
-<<<<<<< HEAD
+
 import timeit
 
-=======
->>>>>>> 2226fe94c0b8afd8454e725dc6c91d3c165c5a3a
 def checkIfExist(inputList, x):
     low = 0
     high = len(inputList)-1
@@ -112,7 +92,7 @@ def checkIfExist(inputList, x):
         else:
             return mid
     return -1
-<<<<<<< HEAD
+
 
 def wrapper(func, *args, **kwargs):
     def wrapped():
@@ -165,8 +145,5 @@ test=2
 N=20
 print computeXN(test, N)
 print computeXN_efficient(test, N)
-=======
-            
-testList = [-9, -3, 1, 3, 4, 8]
-print checkIfExist(testList, 7)  
->>>>>>> 2226fe94c0b8afd8454e725dc6c91d3c165c5a3a
+
+
